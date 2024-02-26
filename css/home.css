@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #6acbd2;
+
+
+    
+}
+
+header{
+    background-color: rgb(151, 179, 185);
+    color:aqua;
+    padding: 15px;
+    text-align: center;
+
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(5, 65, 72);
+    padding: 0.05%;
+    
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    
+    
+    
+}
+
+main{
+    max-width: 80%;
+    margin:20px auto;
+    padding: 20px;
+    background-color: rgb(67, 133, 138);
+    box-shadow: 0 0 20px rgb(67, 74, 75);
+    border-radius: 5px;
+    border: solid;
+}
+.profile_pic{
+  
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 341px;
+}
+.pesh{text-align:justify;}
+h2{text-align: center;}
+
+
+
+
+footer {
+    background-color: rgb(5, 65, 72);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#body{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin:2px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.profile{
+    flex: 0 0 45%;
+}
+
+.pesh{
+    flex: 0 0 45%;
+}
+
+
+
+
+
+
+
+
+
